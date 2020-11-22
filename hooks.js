@@ -1,5 +1,5 @@
-var path = require('path');
-var eejs = require("ep_etherpad-lite/node/eejs");
+const path = require('path');
+const eejs = require('ep_etherpad-lite/node/eejs');
 
 /*
 exports.eejsBlock_scripts = function (hook_name, args, cb) {
@@ -7,4 +7,3 @@ exports.eejsBlock_scripts = function (hook_name, args, cb) {
   return cb();
 };
 */
-

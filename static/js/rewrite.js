@@ -1,6 +1,6 @@
 'use strict';
 
-window.padeditbar.setEmbedLinks = () => {
+exports.documentReady = () => {
   if ($('#readonlyinput').is(':checked')) {
     // If this is a pro pad IE contains a $ in teh URL
     if (window.location.href.indexOf('$') !== -1) {

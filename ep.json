@@ -2,8 +2,10 @@
   "parts": [
     {
       "name": "rewrite_share_paths",
+      "client_hooks": {
+        "documentReady": "ep_rewrite_share_paths/static/js/rewrite:documentReady"
+      },
       "hooks": {
-        "eejsBlock_scripts": "ep_rewrite_share_paths/static/js/rewrite_share_paths.js:eejsBlock_scripts"
       }
     }
   ]

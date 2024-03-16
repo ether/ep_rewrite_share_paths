@@ -14,7 +14,7 @@
     "email": "john@mclear.co.uk",
     "url": "http://mclear.co.uk"
   },
-  "version": "1.0.21",
+  "version": "1.0.22",
   "repository": {
     "type": "git",
     "url": "git://github.com/johnmclear/ep_rewrite_share_paths.git"
@@ -29,7 +29,6 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "_id": "ep_rewrite_share_paths@1.0.2",
   "_engineSupported": true,
   "_npmVersion": "1.1.24",
   "_nodeVersion": "v0.8.8",
